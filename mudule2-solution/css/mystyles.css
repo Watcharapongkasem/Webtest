@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	font-family: "Brush Script MT","Cursive","Serif";
+	font-size: 16px;
+}
+@media (min-width: 992px){
+
+	.col-ds-4{
+		float: left;
+		width: 31%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.col-tb-6{
+		width: 48%;
+		float: left;
+	}
+	.col-tb-12{
+		width: 98%;
+		float: left;
+	}
+}
+
+
+
+
+div.container{
+	position: relative;
+		
+}
+
+.row{
+	position: relative;
+}
+
+.row > div {
+	border: 1px solid black;
+	position: relative;
+	margin: 1%;
+	padding: 0px 5px 5px 5px;
+	background-color: gray;
+}
+.title1{
+	border: 1px solid black;
+	width: 100px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+.title2{
+	border: 1px solid black;
+	width: 100px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background-color: yellow;
+	color: orange;
+}
+.title3{
+	border: 1px solid black;
+	width: 100px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	background-color: lightblue;
+	color: snow;
+}
+.detail{
+ position: relative;
+ top: 10px;
+ overflow: hidden;
+ color: blanchedalmond;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
